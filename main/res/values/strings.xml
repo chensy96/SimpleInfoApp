@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SKIDMORE CS</string>
+    <string name="intro">Computer science is the study of the theoretical foundations of information and computation and their implementation and application. Computer science has many sub-fields; some emphasize the computation of specific results (such as computer graphics), while others relate to properties of computational problems (such as computational complexity theory). Still others focus on the challenges in implementing computations. Computer science has applications in a broad range of fields, from engineering to medicine, mathematics to aeronautics, human-computer interaction, artificial intelligence, and beyond.</string>
+    <string name="contact">PHONE: (518) 580 - 5280
+                           FAX: (518) 580 - 5295
+
+                            MAIL: Skidmore College, 815 North Broadway
+                                 Saratoga Springs, NY 12866 </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

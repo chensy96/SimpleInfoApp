@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chensy96.midterm1.IntroActivity">
+
+    <ImageView
+        android:id="@+id/profpic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds= "true"
+        android:maxHeight="130dp"
+        android:maxWidth="130dp"
+        app:srcCompat="@drawable/mike" />
+
+
+    <TextView
+        android:id="@+id/introname"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/introtitle"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/introoffice"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Office:" />
+
+    <TextView
+        android:id="@+id/introemail"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:autoLink="email"
+        android:text="Email:" />
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:gravity="left"
+        android:id="@+id/intro"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:text="introductionsblablabla" />
+
+
+</LinearLayout>

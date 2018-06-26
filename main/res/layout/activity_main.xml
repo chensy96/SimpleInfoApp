@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.chensy96.midterm1.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textColor="#000000"
+        android:textSize="8pt"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="@string/intro"/>
+
+    <Button
+        android:id="@+id/btnf"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="#3E946E"
+        android:elevation="20dp"
+        android:text="Faculty" />
+
+    <Button
+        android:id="@+id/btnc"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#64A98B"
+        android:elevation="24dp"
+        android:text="Courses" />
+
+    <Button
+        android:id="@+id/btnm"
+        style="@android:style/Widget.Material.Button.Colored"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#8BBEA8"
+        android:elevation="24dp"
+        android:text="Major/Minor" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.40"
+        android:gravity="center"
+        android:maxWidth="300dp"
+        android:text="@string/contact"
+        android:textColor="#000000" />
+
+</LinearLayout>
